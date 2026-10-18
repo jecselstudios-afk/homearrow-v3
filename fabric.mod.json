@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "homearrow",
+  "version": "${version}",
+  "name": "Home Arrow",
+  "description": "Set a home point and press N to show an arrow pointing toward it.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.homearrow.HomeArrowClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
